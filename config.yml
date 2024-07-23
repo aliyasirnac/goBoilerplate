@@ -1,0 +1,14 @@
+app:
+  port: ${API_PORT}
+?PORT}  log:
+  level: ${LOG_LEVEL}
+  format: ${LOG_FORMAT}
+  output: ${LOG_OUTPUT}
+
+database:
+  host: ${DB_HOST}
+  user: ${DB_USER}
+  password: ${DB_PASSWORD}
+  dbname: ${DB_NAME}
+  port: ${DB_PORT}
+  sslmode: ${DB_SSLMODE}
